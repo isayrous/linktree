@@ -92,7 +92,7 @@ section {
     body {
         margin: 0;
         padding: 0;
-        height: 100%;
+        height: 150vh;
         width: 100%;
     }
     
@@ -103,6 +103,8 @@ section {
         justify-content: center;
 
     }
+
+    #profilepicture {width: 100px;}
     
     .mnsg {
         border-radius: 5px ;
