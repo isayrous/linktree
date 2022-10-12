@@ -92,15 +92,21 @@ section {
     body {
         margin: 0;
         padding: 0;
+        height: 100%;
+        width: 100%;
     }
     
     main {
-        width: 400px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
     }
     
     .mnsg {
         border-radius: 5px ;
-        width: 400px;
+        width: 100%;
         margin-bottom: 10px;    
     }
 
