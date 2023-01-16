@@ -49,6 +49,12 @@ header {
     gap: 10px;
     padding: 10px;
     text-align: center;
+    transition: 0.25s;
+}
+
+.section-box:hover{
+    background-color: rgba(138,144,159,0.1);
+    transition: 0.5s;
 }
 
 .box-imgs {

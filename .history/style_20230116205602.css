@@ -5,7 +5,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Saira', sans-serif;
-    color: #ffffff
+    color: #ffffff;
+    overflow-x: hidden;
 }
 
 body {
@@ -48,6 +49,12 @@ header {
     gap: 10px;
     padding: 10px;
     text-align: center;
+    transition: 0.5s;
+}
+
+.section-box:hover{
+    background-color: rgba(138,144,159,0.1);
+    transition: 0.5s;
 }
 
 .box-imgs {
@@ -92,7 +99,7 @@ section {
     body {
         margin: 0;
         padding: 0;
-        height: 150vh;
+        height: 120vh;
         width: 100%;
     }
     
